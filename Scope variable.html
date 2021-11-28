@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Scope variable</title>
+</head>
+
+<body>
+	<script>
+		
+		var globalvar="this ia a gloabl variable";
+	
+		function abc(){
+			var localvar="this is local variable";
+			document.write(localvar+"<br>");
+			
+			document.write(globalvar);
+			
+		}
+		abc();
+	
+	
+	</script>
+</body>
+</html>
